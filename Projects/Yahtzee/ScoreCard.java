@@ -11,6 +11,7 @@ public class ScoreCard{
   public int scoreRollOnes(ArrayList<Integer> roll){
     //scores the specified roll
     int answer = 0;
+    int x;
     for(int i = 0; i < roll.size(); i++){
       if(roll.get(i) == 1)
         answer+= 1;
